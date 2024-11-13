@@ -1,0 +1,29 @@
+.grid-container {
+  display: grid;
+  width: 100%;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.grid-container article {
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.grid-container img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hero-dark {
+  background-color: rgb(255, 203, 203);
+}
+
+.hero-light {
+  background-color: rgb(203, 232, 255);
+}
+
+.weapon {
+  font-weight: bold;
+}
